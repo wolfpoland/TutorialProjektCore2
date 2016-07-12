@@ -1,0 +1,42 @@
+@model TutorialProjektCore.Models.Movie
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Movie</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DataWydania)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DataWydania)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Tytul)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Tytul)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.cena)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.cena)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.gatunek)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.gatunek)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
