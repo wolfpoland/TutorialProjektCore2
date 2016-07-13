@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace TutorialProjektCore.Models
 {
@@ -9,6 +7,8 @@ namespace TutorialProjektCore.Models
     {
         public int ID { get; set; }
         public string Tytul { get; set; }
+        [Display(Name ="Wydanie")]
+        [DataType(DataType.Date)]
         public DateTime DataWydania { get; set; }
         public string gatunek { get; set; }
         public decimal cena { get; set; }

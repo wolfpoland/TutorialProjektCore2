@@ -20,9 +20,70 @@ namespace TutorialProjektCore.Controllers
         }
 
         // GET: Movies
-        public async Task<IActionResult> Index()
+        /*    public async Task<IActionResult> Index(string szukaj)
+            {
+                var filmy = from m in _context.Movie
+                            select m;
+                if (!String.IsNullOrEmpty(szukaj))
+                {
+                    filmy = filmy.Where(s => s.Tytul.Contains(szukaj));
+                }
+                return View(await filmy.ToListAsync());
+
+
+            }
+
+            public async Task<IActionResult> Index(string movieGenre, string szukaj)
+            {
+                IQueryable<string> generQuery = from m in _context.Movie
+                                                orderby m.gatunek
+                                                select m.gatunek;
+                var movies = from m in _context.Movie
+                             select m;
+                if (!String.IsNullOrEmpty(szukaj))
+                {
+                    movies = movies.Where(k => k.Tytul.Contains(szukaj));
+                }
+                if (!String.IsNullOrEmpty(movieGenre))
+                {
+                    movies = movies.Where(x => x.gatunek == movieGenre);
+                }
+                var movieGenreVM = new MovieGenreViewModelcs();
+                movieGenreVM.genres = new SelectList(await generQuery.Distinct().ToListAsync());
+                movieGenreVM.movies = await movies.ToListAsync();
+                return View(movieGenreVM);
+            }
+            */
+        public async Task<IActionResult> Index(string movieGenre, string szukaj)
         {
-            return View(await _context.Movie.ToListAsync());
+            // Use LINQ to get list of genre's.
+            IQueryable<string> genreQuery = from m in _context.Movie
+                                            orderby m.gatunek
+                                            select m.gatunek;
+
+            var movies = from m in _context.Movie
+                         select m;
+
+            if (!String.IsNullOrEmpty(szukaj))
+            {
+                movies = movies.Where(s => s.Tytul.Contains(szukaj));
+            }
+
+            if (!String.IsNullOrEmpty(movieGenre))
+            {
+                movies = movies.Where(x => x.gatunek == movieGenre);
+            }
+
+            var movieGenreVM = new MovieGenreViewModelcs();
+            movieGenreVM.genres = new SelectList(await genreQuery.Distinct().ToListAsync());
+            movieGenreVM.movies = await movies.ToListAsync();
+
+            return View(movieGenreVM);
+        }
+        [HttpPost]
+        public string Index(string szukaj,bool notUsed)
+        {
+            return "From [HttpPost]Index: filter on " + szukaj;
         }
 
         // GET: Movies/Details/5
