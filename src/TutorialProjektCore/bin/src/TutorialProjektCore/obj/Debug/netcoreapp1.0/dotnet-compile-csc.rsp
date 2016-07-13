@@ -7,8 +7,8 @@
 -debug:full
 -nostdlib
 -nologo
-"C:\Users\Patryk\Documents\Visual Studio 2015\DodatkoweProjekty\TutorialProjektCore\src\TutorialProjektCore\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
--out:"C:\Users\Patryk\Documents\Visual Studio 2015\DodatkoweProjekty\TutorialProjektCore\src\TutorialProjektCore\bin\Debug\netcoreapp1.0\TutorialProjektCore.dll"
+"C:\Users\Patryk\Documents\Visual Studio 2015\DodatkoweProjekty\TutorialProjektCore\src\TutorialProjektCore\bin\src\TutorialProjektCore\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
+-out:"C:\Users\Patryk\Documents\Visual Studio 2015\DodatkoweProjekty\TutorialProjektCore\src\TutorialProjektCore\bin\src\TutorialProjektCore\bin\Debug\netcoreapp1.0\TutorialProjektCore.dll"
 -r:"C:\Users\Patryk\.nuget\packages\Microsoft.ApplicationInsights\2.1.0\lib\dotnet5.4\Microsoft.ApplicationInsights.dll"
 -r:"C:\Users\Patryk\.nuget\packages\Microsoft.ApplicationInsights.AspNetCore\1.0.0\lib\netstandard1.6\Microsoft.ApplicationInsights.AspNetCore.dll"
 -r:"C:\Users\Patryk\.nuget\packages\Microsoft.AspNetCore.Antiforgery\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Antiforgery.dll"
@@ -225,7 +225,7 @@
 -r:"C:\Users\Patryk\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll"
 -r:"C:\Users\Patryk\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\Patryk\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
--resource:"C:\Users\Patryk\Documents\Visual Studio 2015\DodatkoweProjekty\TutorialProjektCore\src\TutorialProjektCore\obj\Debug\netcoreapp1.0\TutorialProjektCoredotnet-compile.deps.json",TutorialProjektCore.deps.json
+-resource:"C:\Users\Patryk\Documents\Visual Studio 2015\DodatkoweProjekty\TutorialProjektCore\src\TutorialProjektCore\bin\src\TutorialProjektCore\obj\Debug\netcoreapp1.0\TutorialProjektCoredotnet-compile.deps.json",TutorialProjektCore.deps.json
 "C:\Users\Patryk\Documents\Visual Studio 2015\DodatkoweProjekty\TutorialProjektCore\src\TutorialProjektCore\Program.cs"
 "C:\Users\Patryk\Documents\Visual Studio 2015\DodatkoweProjekty\TutorialProjektCore\src\TutorialProjektCore\Startup.cs"
 "C:\Users\Patryk\Documents\Visual Studio 2015\DodatkoweProjekty\TutorialProjektCore\src\TutorialProjektCore\Controllers\AccountController.cs"

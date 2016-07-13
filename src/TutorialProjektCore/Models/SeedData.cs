@@ -25,6 +25,7 @@ namespace TutorialProjektCore.Models
                         Tytul="Chlopaki nie placza",
                         DataWydania= DateTime.Parse("1994-10-25"),
                         gatunek="Komedia",
+                        ocena="A+",
                         cena=10.99M
                     },
                       new Movie
@@ -32,6 +33,7 @@ namespace TutorialProjektCore.Models
                           Tytul = "Pokachontas",
                           DataWydania = DateTime.Parse("1994-10-25"),
                           gatunek = "Komedia",
+                          ocena="B-",
                           cena = 10.99M
                       }
                     );
