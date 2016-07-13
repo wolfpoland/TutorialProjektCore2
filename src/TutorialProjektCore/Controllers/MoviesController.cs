@@ -114,7 +114,7 @@ namespace TutorialProjektCore.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,DataWydania,Tytul,cena,gatunek")] Movie movie)
+        public async Task<IActionResult> Create([Bind("ID,DataWydania,Tytul,cena,gatunek,ocena")] Movie movie)
         {
             if (ModelState.IsValid)
             {

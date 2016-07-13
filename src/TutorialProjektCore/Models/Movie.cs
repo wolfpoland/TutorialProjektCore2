@@ -12,5 +12,6 @@ namespace TutorialProjektCore.Models
         public DateTime DataWydania { get; set; }
         public string gatunek { get; set; }
         public decimal cena { get; set; }
+        public string ocena { get; set; }
     }
 }
