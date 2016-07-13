@@ -235,12 +235,16 @@ C:\Users\Patryk\Documents\Visual Studio 2015\DodatkoweProjekty\TutorialProjektCo
 C:\Users\Patryk\Documents\Visual Studio 2015\DodatkoweProjekty\TutorialProjektCore\src\TutorialProjektCore\Controllers\AccountController.cs
 C:\Users\Patryk\Documents\Visual Studio 2015\DodatkoweProjekty\TutorialProjektCore\src\TutorialProjektCore\Controllers\HomeController.cs
 C:\Users\Patryk\Documents\Visual Studio 2015\DodatkoweProjekty\TutorialProjektCore\src\TutorialProjektCore\Controllers\ManageController.cs
+C:\Users\Patryk\Documents\Visual Studio 2015\DodatkoweProjekty\TutorialProjektCore\src\TutorialProjektCore\Controllers\MoviesController.cs
 C:\Users\Patryk\Documents\Visual Studio 2015\DodatkoweProjekty\TutorialProjektCore\src\TutorialProjektCore\Data\ApplicationDbContext.cs
 C:\Users\Patryk\Documents\Visual Studio 2015\DodatkoweProjekty\TutorialProjektCore\src\TutorialProjektCore\Data\Migrations\00000000000000_CreateIdentitySchema.cs
 C:\Users\Patryk\Documents\Visual Studio 2015\DodatkoweProjekty\TutorialProjektCore\src\TutorialProjektCore\Data\Migrations\00000000000000_CreateIdentitySchema.Designer.cs
+C:\Users\Patryk\Documents\Visual Studio 2015\DodatkoweProjekty\TutorialProjektCore\src\TutorialProjektCore\Data\Migrations\20160713070757_Initial.cs
+C:\Users\Patryk\Documents\Visual Studio 2015\DodatkoweProjekty\TutorialProjektCore\src\TutorialProjektCore\Data\Migrations\20160713070757_Initial.Designer.cs
 C:\Users\Patryk\Documents\Visual Studio 2015\DodatkoweProjekty\TutorialProjektCore\src\TutorialProjektCore\Data\Migrations\ApplicationDbContextModelSnapshot.cs
 C:\Users\Patryk\Documents\Visual Studio 2015\DodatkoweProjekty\TutorialProjektCore\src\TutorialProjektCore\Models\ApplicationUser.cs
 C:\Users\Patryk\Documents\Visual Studio 2015\DodatkoweProjekty\TutorialProjektCore\src\TutorialProjektCore\Models\Movie.cs
+C:\Users\Patryk\Documents\Visual Studio 2015\DodatkoweProjekty\TutorialProjektCore\src\TutorialProjektCore\Models\SeedData.cs
 C:\Users\Patryk\Documents\Visual Studio 2015\DodatkoweProjekty\TutorialProjektCore\src\TutorialProjektCore\Models\AccountViewModels\ExternalLoginConfirmationViewModel.cs
 C:\Users\Patryk\Documents\Visual Studio 2015\DodatkoweProjekty\TutorialProjektCore\src\TutorialProjektCore\Models\AccountViewModels\ForgotPasswordViewModel.cs
 C:\Users\Patryk\Documents\Visual Studio 2015\DodatkoweProjekty\TutorialProjektCore\src\TutorialProjektCore\Models\AccountViewModels\LoginViewModel.cs
